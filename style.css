@@ -1,0 +1,81 @@
+/* Estilos mais modernos */
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+.container {
+    text-align: center;
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid #2E8B57;
+}
+
+h1, h2 {
+    color: #2E8B57;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #2E8B57;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1C6B43;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    background-color: #DFF0D8;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: #FFC107;
+}
+
+input, select {
+    padding: 12px;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #2E8B57;
+    border-radius: 8px;
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #2E8B57;
+}

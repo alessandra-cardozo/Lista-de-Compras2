@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Compras</h1>
+    <p>Adicione itens à sua lista e os classifique por categoria!</p>
+
+    <input type="text" id="inputItem" placeholder="Digite o nome do item">
+    
+    <select id="categoria">
+      <option value="Frutas">Frutas</option>
+      <option value="Laticínios">Laticínios</option>
+      <option value="Congelados">Congelados</option>
+      <option value="Doces">Doces</option>
+      <option value="Outros">Outros</option>
+    </select>
+    
+    <button onclick="adicionarItem()">Adicionar Item</button>
+    <button onclick="exibirLista()">Exibir Lista</button>
+
+    <p id="mensagem"></p>
+
+    <h2>Itens Adicionados:</h2>
+    <ul id="listaItens"></ul>
+
+    <h2>Lista de Compras:</h2>
+    <div id="listaFinal"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
